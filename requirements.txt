@@ -1,0 +1,5 @@
+transformers==4.47.1
+
+nohup python search_against_suffix.py > logs/suffix.log 2>&1 &
+nohup python search_against_rewrite.py > logs/rewrite.log 2>&1 &
+nohup python search_against_word_replace.py > logs/word_replace.log 2>&1 &
